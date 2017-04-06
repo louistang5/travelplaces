@@ -1,0 +1,179 @@
+/*center the entire content*/
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 800px;
+    background-color: #D9D9D9;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: top center;
+}
+
+/*configues the navigation area*/
+.header {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.header a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #333;
+}
+
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*configures the main area*/
+.main {
+    background-color: #D9D9D9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    clear: left;
+}
+
+p {
+    line-height: 180%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+/*configure the footer area*/
+.footer {
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+/*configure the back to top button*/
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    display: none;
+    color: white;
+    background-color: grey;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px;
+ }
+
+ .scrollup:hover {
+     background-color: #555;
+ }
+
+
+ /*image gallery on index page*/
+ #gallery {
+    width: 1200px;
+    margin-bottom: 800px;
+    clear: left;
+}
+
+#gallery ul {
+    width: 250px;
+    float: left;
+    list-style-type: none;
+}
+
+#gallery li {
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border: none;
+}
+
+figure {
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*quote on index page*/
+.quote {
+    display: block;
+    width: 1000px;
+    margin-right: 100px;
+}
+.quote p{
+    text-align: center;
+    line-height: 1em;
+}
+.quote img {
+    float: left;
+    padding-left: 200px;
+}
