@@ -1,3 +1,36 @@
+
+/*comments form*/
+#form_layout {
+    width: 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+label {
+    float: left;
+    width: 100%;
+}
+input[type=text], input[type=email], textarea {
+    width: 95%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color:#FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+
 /*center the entire content*/
 html {
     display: table;
@@ -80,9 +113,11 @@ body {
 /*configures the main area*/
 .main {
     background-color: #D9D9D9;
+    min-width: 800px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 15px;
+    margin-bottom: 800px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -94,15 +129,6 @@ p {
     line-height: 180%;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
 
 /*configure the footer area*/
 .footer {
@@ -112,6 +138,7 @@ img {
     text-align: left;
     padding: 10px 10px;
 }
+
 
 /*configure the back to top button*/
 .scrollup {
@@ -133,4 +160,3 @@ img {
  .scrollup:hover {
      background-color: #555;
  }
-

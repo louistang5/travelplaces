@@ -5,20 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Travel Places - Leave a Comment</title>
+    <link rel="stylesheet" href="style_comments.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="back2top.js"></script>
+    <title>Travel Places - Leave A Comment</title>
 </head>
 
 <body>
     <nav id="navMenu"></nav>
 
     <div class="main">
-        
+        <h2>You are welcome to leave a comment here</h2>
+        <form method="post" action="https://script.google.com/macros/s/AKfycbyRcUuw7k4iSwikDLzawSh6cn7zdBrkmYabl4ehtcfPzT1aoQxN/exec" id="form_layout">
+            <label for="name">*Name:</label>
+            <input type="text" name="name" id="name" required="required">
+            <label for="email">*Email:</label>
+            <input type="email" name="email" id="email" required="required">
+            <label for="comments">*Comments:</label>
+            <textarea type="textarea" name="comments" id="comments" required="required" rows="10" cols="100"></textarea>
+            <input id="submit" type="submit" value="Submit">
+        </form>
     </div>
+    
 
-    <div class="footer">
-        Copyright @2017 Louis
-    </div>
+    <button class="scrollup">Top</button>
+    <div class="footer">Copyright &copy; 2017 Teemo</div>
     <script src="getNavMenu.js"></script>
 </body>
 
