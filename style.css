@@ -84,8 +84,11 @@ body {
     padding-bottom: 20px;
     margin: 15px;
 }
+.main a {
+    text-decoration: none;
+}
 
-h1, h2, h3, h4, h5 {
+h1, h3 {
     text-align: center;
     clear: left;
 }
@@ -103,6 +106,11 @@ img {
     width: auto\9;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*configure the footer area*/
 .footer {
